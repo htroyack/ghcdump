@@ -1,0 +1,19 @@
+2 e_magic;     // Magic number
+2 e_cblp;      // Bytes on last page of file
+2 e_cp;        // Pages in file
+2 e_crlc;      // Relocations
+2 e_cparhdr;   // Size of header in paragraphs
+2 e_minalloc;  // Minimum extra paragraphs needed
+2 e_maxalloc;  // Maximum extra paragraphs needed
+2 e_ss;        // Initial (relative) SS value
+2 e_sp;        // Initial SP value
+2 e_csum;      // Checksum
+2 e_ip;        // Initial IP value
+2 e_cs;        // Initial (relative) CS value
+2 e_lfarlc;    // File address of relocation table
+2 e_ovno;      // Overlay number
+8 e_res[4];    // Reserved words
+2 e_oemid;     // OEM identifier (for e_oeminfo)
+2 e_oeminfo;   // OEM information; e_oemid specific
+20 e_res2[10]; // Reserved words
+4 e_lfanew;    // File address of new exe header
